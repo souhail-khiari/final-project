@@ -1,0 +1,17 @@
+.card input-filed {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

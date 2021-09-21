@@ -1,0 +1,336 @@
+.postlist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.postlist > * {
+    margin: 20 px;
+}
+.profilelist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.profilelist > * {
+    margin: 20 px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.sticky-top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text-center text-white {
+    background-color: #caced1;
+}
+.text-center p-3 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.back_image {
+    background-image: url("https://images.unsplash.com/photo-1504672281656-e4981d70414b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control-underlined {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    padding-left: 0;
+}
+.display-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-f {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.col-lg-9 mx-auto text-white text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*
+
+ body {
+    background: #bebebe;
+    background-image: url("./ist.jpg");
+
+    min-height: 100vh;
+} */
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+.landpage {
+    font-family: "Lato", sans-serif;
+    margin: 0 !important;
+    background-image: url("./land.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #0a0a0b;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+ul,
+nav {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: rgb(82, 64, 64);
+    text-decoration: none;
+
+    opacity: 0.9;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(10, 10, 10);
+    margin: 0 0 1.5rem;
+}
+
+i {
+    font-size: 1.3rem;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(10, 10, 10);
+    padding: 10px 100px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav {
+    width: 30%;
+}
+header nav Link li {
+    margin: 0 15px;
+    color: #0a0a0b;
+    font-weight: 200 bolder;
+    font-size: larger;
+}
+
+header nav li:first-child {
+    margin-left: 0;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+
+/* a.btn {
+    color: rgb(7, 7, 7);
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+a.btn:hover {
+    background: #3850d7;
+    border: 1px solid #4238d7;
+    color: rgb(10, 10, 10);
+}
+
+.cover {
+    height: 100vh;
+    width: 100%;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 0.05)),
+        to(rgba(0, 0, 0, 0))
+    );
+    background: -webkit-linear-gradient(
+        top,
+        rgba(0, 0, 0, 0.05) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.05) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    padding: 20px 50px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+} */
+
+.flex-form input[type="submit"] {
+    background: #070707;
+    border: 1px solid #858080;
+    color: rgb(14, 13, 13);
+    padding: 0 30px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.flex-form input[type="submit"]:hover {
+    background: #0c0c0c;
+    border: 1px solid #858080;
+}
+
+.flex-form {
+    display: flex;
+    z-index: 10;
+    position: relative;
+    width: 500px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.flex-form > * {
+    border: 0;
+    padding: 0 0 0 10px;
+    background: #fff;
+    line-height: 50px;
+    font-size: 1rem;
+    border-radius: 0;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+input[type="search"] {
+    flex-basis: 300px;
+}
+
+/* #madeby {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 25px 100px;
+    color: #fff;
+} */
+
+@media all and (max-width: 800px) {
+    /* body {
+        font-size: 0.9rem;
+    } */
+
+    .flex-form {
+        width: 100%;
+    }
+
+    input[type="search"] {
+        flex-basis: 100%;
+    }
+
+    .flex-form > * {
+        font-size: 0.9rem;
+    }
+
+    /* header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        padding: 10px !important;
+    } */
+
+    /* header h2 {
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .cover {
+        padding: 20px;
+    }
+
+    #madeby {
+        padding: 30px 20px;
+    } */
+}
+
+@media all and (max-width: 360px) {
+    header nav li {
+        margin: 0 10px;
+    }
+
+    .flex-form {
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+
+    input[type="search"] {
+        flex-basis: 0;
+    }
+
+    label {
+        display: none;
+    }
+}

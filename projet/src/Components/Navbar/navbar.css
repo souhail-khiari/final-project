@@ -1,0 +1,23 @@
+li {
+    color: rgb(2, 2, 51) !important;
+}
+.auth {
+    display: inline;
+    align-items: flex-end;
+    padding-left: 5% !important;
+    justify-content: space-around;
+}
+.ul_auth {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+
+    width: 50%;
+}
+.logo {
+    font-family: "logo";
+    font-size: 1.9rem;
+    color: "black";
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
